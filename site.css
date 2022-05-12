@@ -1,6 +1,6 @@
 body {
   font-family: 'Contrast Regular';
-  font-size: 20px;
+  font-size: 15px;
   color: white;
   margin: 0;
   padding: 0;
@@ -42,11 +42,26 @@ img {
 }
 
 .hm-project-container--left {
-  width: 70%;
+  width: 30%;
 }
 
 .hm-project-container--right {
+  width: 70%;
+  margin-left: 2%;
+}
+
+.hm-project-container--middle {
   width: 30%;
+}
+
+.hm-poster-container-right {
+  width: 40%;
+  margin: 0 4.5% 0 1.5%;
+}
+
+.hm-poster-container-middle {
+  width: 20%;
+  padding: 0;
 }
 
 /* Text Styling */
@@ -57,18 +72,30 @@ img {
   font-weight:  bolder;
 }
 
+.hm-subtitle {
+  font-size: 15px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
 .hm-header-container {
-  width: 18%;
-  font-size: 40px;
+  width: 28%;
+  font-size: 60px;
   color: black;
   background-color: white;
   margin-bottom: 5%;
+  padding-left: 10px;
 }
 
 .hm-header-container--small {
   font-size: 20px;
+  padding: 5px;
 }
 
+.hm-header-container--tiny {
+  font-size: 10px;
+  padding: 5px;
+}
 /* Img Styling */
 
 .hm-image {
@@ -77,4 +104,14 @@ img {
 
 .hm-image--small {
   width: 50%;
+}
+
+.hm-image--tiny {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.hm-image--poster {
+  padding-bottom: 0px;
+  width: 84%;
 }
