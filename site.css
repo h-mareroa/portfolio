@@ -1,0 +1,80 @@
+body {
+  font-family: 'Contrast Regular';
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Contrast Regular';
+  src: url('./font/contrast.ttf') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'founders';
+  src: url('./font/founders.ttf') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hm-page {
+  position: relative;
+}
+
+.hm-main-content {
+  padding: 2.5%;
+}
+
+.hm-project-container {
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.hm-project-container--left {
+  width: 70%;
+}
+
+.hm-project-container--right {
+  width: 30%;
+}
+
+/* Text Styling */
+
+.hm-title {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight:  bolder;
+}
+
+.hm-header-container {
+  width: 18%;
+  font-size: 40px;
+  color: black;
+  background-color: white;
+  margin-bottom: 5%;
+}
+
+.hm-header-container--small {
+  font-size: 20px;
+}
+
+/* Img Styling */
+
+.hm-image {
+  padding-bottom: 20px;
+}
+
+.hm-image--small {
+  width: 50%;
+}
