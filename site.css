@@ -11,6 +11,16 @@ img {
   width: 100%;
 }
 
+a {
+  color: blue;
+}
+
+a:hover {
+  color: white;
+}
+
+
+
 @font-face {
   font-family: 'Contrast Regular';
   src: url('./font/contrast.ttf') format('truetype');
