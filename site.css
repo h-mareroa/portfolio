@@ -47,7 +47,11 @@ a:active {
 
 .p-section-container {
   float: left;
-  margin-left: 15%;
+  margin-left: 30%;
   margin-bottom: 10%;
   font-family: helvetica;
+}
+
+.p-little-container {
+  position: relative;
 }
