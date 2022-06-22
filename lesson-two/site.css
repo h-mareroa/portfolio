@@ -16,6 +16,10 @@ a {
   animation-iteration-count: infinite;
 }
 
+video {
+  width: 100%;
+}
+
 .p-title-container {
   font-family: helvetica;
   font-size: 100px;
