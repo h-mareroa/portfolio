@@ -43,6 +43,12 @@ a:hover {
   padding: 2.5%;
 }
 
+.hm-top-project-container {
+  width: 30%;
+  display: flex;
+  margin-bottom: 100px;
+}
+
 .hm-project-container {
   width: 100%;
   display: flex;
