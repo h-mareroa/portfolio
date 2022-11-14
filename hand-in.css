@@ -1,0 +1,55 @@
+body {
+  font-family: 'Contrast Regular';
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+img {
+  width: 30%;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: white;
+}
+
+@font-face {
+  font-family: 'Contrast Regular';
+  src: url('./font/contrast.ttf') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'founders';
+  src: url('./font/founders.ttf') format('truetype');
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hm-page {
+  position: relative;
+}
+
+.hm-main-content {
+  padding: 2.5%;
+}
+
+.hm-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hm-square {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
