@@ -46,10 +46,28 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+    z-index: 100;
 }
 
-.hm-square {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
+.hm-alphabet-container {
+  position: fixed;
+  width: 100%;
+  font-family: founders;
+  font-size: 100px;
+  z-index: 1;
+}
+
+.hm-image-container {
+  width: 100%;
+  animation: hidden;
+  margin-left: 200px;
+}
+
+@keyframes hidden {
+  1s {
+    opacity: 100%;
+  }
+  2s {
+    opacity: 0%;
+  }
 }
